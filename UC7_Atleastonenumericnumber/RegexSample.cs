@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace UC6_AtleastOneUpperCase
+namespace UC7_Atleastonenumericnumber
 {
     class RegexSample
     {
@@ -18,7 +18,7 @@ namespace UC6_AtleastOneUpperCase
         public void ValidatingPassWord()
         {
             //string passwordPattern = @"[a-z,A-Z,0-9]{8,}$";
-            string passwordPattern = @"^(?=.*[A-Z]).{8,}$";
+            string passwordPattern = @"^[0-9]+[\s]+[0-9]{10}$";
             Regex regex = new Regex(passwordPattern);
             Console.WriteLine("Enter password minimum 8 characters with one upper case");
             string password = Console.ReadLine();
@@ -34,5 +34,7 @@ namespace UC6_AtleastOneUpperCase
 
         }
 
+
     }
 }
+
