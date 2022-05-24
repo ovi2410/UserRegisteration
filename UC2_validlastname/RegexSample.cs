@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace UC1_validfirstname
+namespace UC2_validlastname
 {
     class RegexSample
     {
@@ -13,14 +13,14 @@ namespace UC1_validfirstname
         public void Validating()
         {
             Regex regex = new Regex(pattern);
-            Console.WriteLine("Validating The first Name");
-            ValidatingfirstName();
+            Console.WriteLine("Validating The Last Name");
+            ValidatingLastName();
 
         }
-        public void ValidatingfirstName()
+        public void ValidatingLastName()
         {
             Regex regex = new Regex(pattern);
-            Console.WriteLine("Enter the first name : ");
+            Console.WriteLine("Enter the last name : ");
             string input1 = Console.ReadLine();
             bool res1 = regex.IsMatch(input1);
             if (res1)
@@ -34,4 +34,4 @@ namespace UC1_validfirstname
         }
     }
 }
-
+    
