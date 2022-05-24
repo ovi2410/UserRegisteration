@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UC5_validPassword;
+using UC6_AtleastOneUpperCase;
 
 namespace UserRegisteration
 {
