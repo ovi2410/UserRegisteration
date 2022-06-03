@@ -1,13 +1,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserRegisteration;
-using static UserRegisteration.RegexSample;
-namespace TestProject1
+
+namespace Uc13TestProject2
 {
     [TestClass]
     public class UnitTest1
     {
-        public object RegexSample { get; private set; }
-
         //validation for first Name
         [TestMethod]
         [DataRow("Shalini", "Shalini")]

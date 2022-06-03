@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserRegisteration
+namespace UC13_LambdaExpression
 {
     public class CustomException : Exception
     {
@@ -17,7 +17,8 @@ namespace UserRegisteration
         }
         public CustomException(ExceptionType type, string message) : base(message)
         {
-            this.type = type;
+                this.type = type;
+
         }
     }
 }
