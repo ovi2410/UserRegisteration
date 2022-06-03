@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserRegisteration;
 
-namespace UC11TestProject2
+namespace Uc13TestProject2
 {
     [TestClass]
     public class UnitTest1
@@ -222,5 +222,4 @@ namespace UC11TestProject2
 
 
     }
-
 }
